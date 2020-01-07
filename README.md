@@ -1,1 +1,0 @@
-responsive landing website created for polish insurance agency
