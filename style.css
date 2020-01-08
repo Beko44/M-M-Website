@@ -9,6 +9,10 @@ body {
     line-height: 1.6;
   }
 
+  img {
+      width: 100%;
+  }
+
   /*Home*/
   #home {
       margin: 0;
@@ -21,8 +25,36 @@ body {
       position: relative;
       overflow-y: hidden;
       color: rgb(26, 26, 29);
-      text-shadow: rgb(29, 26, 26);
   }
+
+  #home h1{
+      font-size: 3rem;
+  }
+
+  #home h2{
+      font-weight: normal;
+  }
+
+/* Sections */
+.section {
+    padding: 2rem 0;
+    color: silver;
+}
+
+.section img{
+    width: 40%;
+    height: auto;
+}
+
+.section h3{
+    font-size: 1,3rem;
+    text-align: center;
+}
+
+.section h2{
+    font-size: 2rem;
+    
+}
 
 
   
@@ -31,9 +63,34 @@ body {
     max-width: 1180px;
     text-align: center;
     margin: 0 auto;
-    padding: 0 3rem;
-    margin-top: 25vh;
-    
+    padding: 0 2rem;
+    margin-top: 20vh;   
+}
+
+.container2{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 2rem;    
+}
+
+.container2 ul{
+    list-style: none;
+}
+
+.container3{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+}
+
+.container3 ul{
+    list-style: none;
+}
+
+.head{
+    text-transform: uppercase;
 }
 
   /*Nav*/
@@ -70,7 +127,21 @@ body {
   }
   
   @media screen and (max-width: 580px) {
-   
+    .hide-on-small {
+        display: none;
+    }
+    
+    #home {
+        height: 50vh;
+    }
+
+    #home .container{
+        margin-top: 10vh;
+    }
+
+    #home h1{
+        font-size: 2rem;
+    }
   
     nav {
       height: auto;
