@@ -89,6 +89,23 @@ body {
     list-style: none;
 }
 
+.container3 i{
+  font-size: 40px;
+  padding: 2rem;
+}
+
+.container3 a{
+  cursor: pointer;
+  color: silver;
+  text-decoration: none;
+}
+
+.container3 a :hover{
+  color: rgb(97, 137, 223);
+  font-size: 105%;
+}
+
+
 .head{
     text-transform: uppercase;
 }
