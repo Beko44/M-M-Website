@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    background-color: rgb(121, 149, 240);
+    margin: 0;
+    color: rgb(44, 43, 43);
+    line-height: 1.6;
+  }
+
+:root {
+    --primary-color: rgb(121, 149, 240);
+    --secondary-color: rgb(159, 180, 248);
+}
+
+.main-container{
+    text-align: center;
+    padding: 2rem 2rem;
+    margin: 0;
+    background: var(--primary-color);
+    color:  rgb(44, 43, 43);
+}
+
+.container{
+    padding: 2rem;
+}
+
+
+.well{
+    background: var(--secondary-color);
+    color: rgb(44, 43, 43);
+    font-size: 1,2rem;
+    
+}
+
+.well p{
+    padding: 3rem;
+    text-align: left;
+}
+
+.light {
+    font-size: 14px; 
+}
+
+.checkbox {
+    align-items: center;
+    
+
+}
+
+#success_message{ 
+    display: none;
+}
+
