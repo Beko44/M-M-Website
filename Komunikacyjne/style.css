@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
+
+
 body {
-    font-size: 18px;
+    background: url(../img/background.jpg) no-repeat center fixed;
+    background-size: cover;
+    font-size: 20px;
     font-family: 'PT Sans', sans-serif;
-    background-color: rgb(121, 149, 240);
     margin: 0;
     color: rgb(44, 43, 43);
     line-height: 1.6;
@@ -11,14 +14,14 @@ body {
 
 :root {
     --primary-color: rgb(121, 149, 240);
-    --secondary-color: rgb(159, 180, 248);
+    --secondary-color: rgb(146, 201, 253);
 }
 
 .main-container{
     text-align: center;
     padding: 2rem 2rem;
     margin: 0;
-    background: var(--primary-color);
+    
     color:  rgb(44, 43, 43);
 }
 

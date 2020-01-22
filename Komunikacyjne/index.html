@@ -97,7 +97,7 @@
     <!-- Text input-->
      
     <div class="form-group">
-      <label class="col-md-4 control-label">Typ/model*</label>  
+      <label class="col-md-4 control-label">Marka/model*</label>  
         <div class="col-md-4 inputGroupContainer">
         <div class="input-group">
             <span class="input-group-addon"><i class="fas fa-car"></i></span>
@@ -121,11 +121,18 @@
     <!-- Text input-->
     
     <div class="form-group">
-      <label class="col-md-4 control-label">Osobowy/ciężarowy/inny*</label>  
+      <label class="col-md-4 control-label">Typ*</label>  
         <div class="col-md-4 inputGroupContainer">
         <div class="input-group">
+          
             <span class="input-group-addon"><i class="fas fa-truck"></i></span>
-      <input name="osobowy" placeholder="Wpisz..." class="form-control"  type="text">
+            <select class="form-control">
+              <option>Motocykl</option>
+              <option>Osobowy</option>
+              <option>Ciężarowy do 3,5 mc</option>
+              <option>Ciężarowy powyżej 3,5 mc</option>
+            </select>
+      
         </div>
     </div>
     </div>
@@ -183,7 +190,7 @@
     <div class="form-group">
       <label class="col-md-4 control-label"></label>
       <div class="col-md-4">
-        <button type="submit" class="btn btn-warning" >Wyślij <span class="glyphicon glyphicon-send"></span></button>
+        <button type="submit" class="btn btn-primary btn-lg" >Wyślij <span class="glyphicon glyphicon-send"></span></button>
       </div>
     </div>
 

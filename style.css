@@ -1,17 +1,23 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
+html{
+  background: url(./img/background.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+
 body {
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'PT Sans', sans-serif;
-    background-color: rgb(121, 149, 240);
     margin: 0;
-    color: rgb(44, 43, 43);
+    color: rgb(36, 36, 36);
     line-height: 1.6;
   }
 
   img {
       width: 100%;
+    
   }
 
   /*Home*/
@@ -26,7 +32,8 @@ body {
       height: 100vh;
       position: relative;
       overflow-y: hidden;
-      color: rgb(26, 26, 29);
+      color: rgb(36, 36, 36);
+      
   }
 
   #home h1{
@@ -38,7 +45,7 @@ body {
 /* Sections */
 .section {
     padding: 2rem 0;
-    color: rgb(44, 43, 43);
+    color: rgb(36, 36, 36);
 }
 
 .section img{
@@ -65,6 +72,10 @@ body {
     margin: 0 auto;
     padding: 0 2rem;
     margin-top: 20vh;   
+}
+
+.container ul{
+  list-style: none;
 }
 
 .container2{
@@ -96,13 +107,13 @@ body {
 
 .container3 a{
   cursor: pointer;
-  color: rgb(44, 43, 43);
+  color: rgb(36, 36, 36);
   text-decoration: none;
 }
 
 .container3 a :hover{
   text-decoration: underline;
-  color: rgb(20, 20, 20);
+  color: rgb(36, 36, 36);
   font-size: 105%;
 }
 
@@ -113,9 +124,9 @@ body {
 
   /*Nav*/
   nav {
-    height: 50px;
+    height: 70px;
     width: 100%;
-    background-color: #333;
+    background-color: rgb(65, 65, 65);
     color: #eee;
     opacity: 90%;
     position: fixed;
@@ -130,15 +141,15 @@ body {
   }
   nav a {
     display: inline-block;
-    width: 120px;
+    width: 150px;
     text-align: center;
     text-decoration: none;
-    padding: 10px 0px;
+    padding: 20px 0px;
     color: #eee;
     text-decoration: none;
   }
   nav li:hover {
-    background-color: #444;
+    background-color: rgb(78, 78, 78);
   }
   nav a#openup {
     display: none;
