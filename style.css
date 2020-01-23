@@ -44,13 +44,17 @@ body {
 
 /* Sections */
 .section {
-    padding: 2rem 0;
+  padding: 2rem 0 2rem 0;
     color: rgb(44, 43, 43);
 }
 
 .section img{
     width: 40%;
     height: auto;
+}
+
+h1{
+  text-shadow: 3px 2px rgb(88, 88, 88);
 }
 
 .section h3{
@@ -60,6 +64,9 @@ body {
 
 .section h2{
     font-size: 2rem;
+    padding: 0;
+    margin-top: 0;
+    
     
 }
 
@@ -70,8 +77,8 @@ body {
     max-width: 1180px;
     text-align: center;
     margin: 0 auto;
-    padding: 0 2rem;
-    margin-top: 20vh;   
+    padding: 0 2rem 0 0;
+    margin-top: 15vh;   
 }
 
 .container ul{
@@ -79,10 +86,20 @@ body {
 }
 
 .container2{
+  
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(5, 1fr);
-    padding: 2rem;    
+    grid-gap: 30px;
+    grid-template-columns: repeat(5,220px);
+    padding-top: 2rem;
+    margin: 0;
+    
+}
+
+.container2 a:hover{
+  text-decoration: underline;
+  color: rgb(44, 43, 43);
+  font-size: 105%;
+  transition: 0.3s ease;
 }
 
 .container2 ul{
@@ -111,7 +128,7 @@ a{
   text-decoration: none;
 }
 
-.container3 a :hover{
+.container3 a:hover{
   text-decoration: underline;
   color: rgb(44, 43, 43);
   font-size: 105%;
@@ -125,21 +142,34 @@ a{
 
   /*Nav*/
   nav {
-    height: 70px;
+    height: 80px;
     width: 100%;
     background-color: whitesmoke;
     color: rgb(44, 43, 43);
-    opacity: 0.8;
+    opacity: 0.9;
     position: fixed;
   }
+
+  .navbar-brand{
+    padding: 0;
+    margin-right: 30px;
+    float: right;
+    cursor: default;
+    width: 10%;
+  
+  }
+
   nav ul {
     padding: 0;
     margin: 0;
   }
+
   nav li {
     display: inline;
     float: left;
   }
+
+ 
 
   nav a {
     display: inline-block;
@@ -159,12 +189,12 @@ a{
   transition-duration: 0.3s;
   }
 
-  li > a:hover{
-    color: rgb(44, 43, 43);
+  #navbar a:hover{
+    
     font-size: 120%;
   }
 
-  li > a:before {
+  #navbar a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -179,7 +209,7 @@ a{
     transition: all 0.3s ease-in-out 0s;
   }
 
-  a:hover:before {
+  #navbar a:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(0.9);
     transform: scaleX(0.9);
